@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-11-14T18:59:31.474526+00:00",
+  "model": "qwen3:4b-instruct",
+  "provider": "ollama-loopback",
+  "cases": [
+    {
+      "case": "planning",
+      "passed": false,
+      "error": "explicit action details lost",
+      "seconds": 10.2
+    },
+    {
+      "case": "uncertain",
+      "passed": true,
+      "seconds": 4.67
+    }
+  ],
+  "passed": false,
+  "scope": "Two synthetic transcripts; no audio transcription evaluation or general accuracy claim."
+}

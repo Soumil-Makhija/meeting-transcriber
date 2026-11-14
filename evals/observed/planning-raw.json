@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "deadline": null,
+      "owner": null,
+      "quote": "Priya will send the checklist by Friday.",
+      "segment_id": "s3"
+    },
+    {
+      "deadline": null,
+      "owner": null,
+      "quote": "We need to review the migration. No owner or date was set.",
+      "segment_id": "s4"
+    }
+  ],
+  "decisions": [
+    {
+      "quote": "We agreed to use SQLite for the prototype.",
+      "segment_id": "s2"
+    }
+  ],
+  "recap": [
+    {
+      "quote": "The prototype needs a small database and a checklist before the pilot.",
+      "segment_id": "s1"
+    }
+  ]
+}

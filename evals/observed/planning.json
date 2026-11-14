@@ -1,0 +1,94 @@
+{
+  "schema_version": "minutemark/v1",
+  "status": "needs_review",
+  "notice": "Draft notes require human review. Quotes establish text provenance, not that the model correctly classified a decision or action. Check the original recording before relying on names, dates, or uncertain transcript passages.",
+  "source": "examples/planning.vtt",
+  "transcript": [
+    {
+      "id": "s1",
+      "start": 0.0,
+      "end": 6.0,
+      "text": "The prototype needs a small database and a checklist before the pilot.",
+      "speaker": null,
+      "uncertain": false
+    },
+    {
+      "id": "s2",
+      "start": 6.0,
+      "end": 12.0,
+      "text": "We agreed to use SQLite for the prototype.",
+      "speaker": null,
+      "uncertain": false
+    },
+    {
+      "id": "s3",
+      "start": 12.0,
+      "end": 19.0,
+      "text": "Priya will send the checklist by Friday.",
+      "speaker": null,
+      "uncertain": false
+    },
+    {
+      "id": "s4",
+      "start": 19.0,
+      "end": 26.0,
+      "text": "We need to review the migration. No owner or date was set.",
+      "speaker": null,
+      "uncertain": false
+    },
+    {
+      "id": "s5",
+      "start": 26.0,
+      "end": 32.0,
+      "text": "Postgres was suggested for a later release, but no decision was made about it.",
+      "speaker": null,
+      "uncertain": false
+    }
+  ],
+  "recap": [
+    {
+      "segment_id": "s1",
+      "quote": "The prototype needs a small database and a checklist before the pilot.",
+      "start": 0.0,
+      "end": 6.0,
+      "speaker": null,
+      "uncertain": false
+    }
+  ],
+  "decisions": [
+    {
+      "segment_id": "s2",
+      "quote": "We agreed to use SQLite for the prototype.",
+      "start": 6.0,
+      "end": 12.0,
+      "speaker": null,
+      "uncertain": false
+    }
+  ],
+  "actions": [
+    {
+      "segment_id": "s3",
+      "quote": "Priya will send the checklist by Friday.",
+      "owner": null,
+      "deadline": null,
+      "start": 12.0,
+      "end": 19.0,
+      "speaker": null,
+      "uncertain": false
+    },
+    {
+      "segment_id": "s4",
+      "quote": "We need to review the migration. No owner or date was set.",
+      "owner": null,
+      "deadline": null,
+      "start": 19.0,
+      "end": 26.0,
+      "speaker": null,
+      "uncertain": false
+    }
+  ],
+  "generation": {
+    "provider": "ollama-loopback",
+    "model": "qwen3:4b-instruct"
+  }
+}

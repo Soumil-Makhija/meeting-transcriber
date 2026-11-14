@@ -1,0 +1,16 @@
+WEBVTT
+
+00:00.000 --> 00:06.000
+The prototype needs a small database and a checklist before the pilot.
+
+00:06.000 --> 00:12.000
+We agreed to use SQLite for the prototype.
+
+00:12.000 --> 00:19.000
+Priya will send the checklist by Friday.
+
+00:19.000 --> 00:26.000
+We need to review the migration. No owner or date was set.
+
+00:26.000 --> 00:32.000
+Postgres was suggested for a later release, but no decision was made about it.

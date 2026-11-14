@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "deadline": null,
+      "owner": null,
+      "quote": "We need to check the export bug. No owner or deadline was assigned.",
+      "segment_id": "s2"
+    }
+  ],
+  "decisions": [],
+  "recap": [
+    {
+      "quote": "The pilot feedback is still incomplete.",
+      "segment_id": "s1"
+    }
+  ]
+}
